@@ -1,8 +1,4 @@
 # Household-appliances-
-Sure Shumaila! Here's a simple and clear explanation of automatic household appliances that you can use for your project, report, or GitHub README:
-
-
----
 
 What are Automatic Household Appliances?
 
