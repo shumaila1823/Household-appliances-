@@ -31,3 +31,8 @@ print("\n--- Appliance Status ---")
 fan.show_status()
 air_conditioner.show_status()
 washing_machine.show_status()
+#total power consumption area
+def calculate_total_power(appliances):
+    total_power = sum(appliance.power_usage for appliance in appliances if appliance.is_on)
+    print(f"\n🔋 Total Power Consumption of Running Appliances: {total_power}W")  
+calculate_total_power(appliances)
